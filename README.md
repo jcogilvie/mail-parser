@@ -1,15 +1,15 @@
 A kotlin `ktor`-based implementation of a code exercise to extract headers from POSTed text body.
 
 # Layout:
-`docker`: contains the `Dockerfile`.
-`src/main/fabric8`: contains bits of helm chart that are 'enriched' by the maven build.
-`src/main/kotlin`: juicy Kotlin code using `ktor` as a web app framework
-`src/main/resources`: ktor and logging config files
-`src/test/kotlin`: a quick unit test
-`target`: build output will go here once you follow the usage instructions.
-`target/docker`: intermediate directory for building the docker image
-`target/fabric8`: k8s/helm gets generated here
-`pom.xml`:  the [fabric8](https://maven.fabric8.io/) plugin here does most of the docker/k8s heavy lifting.
+- `docker`: contains the `Dockerfile`.
+- `src/main/fabric8`: contains bits of helm chart that are 'enriched' by the maven build.
+- `src/main/kotlin`: juicy Kotlin code using `ktor` as a web app framework
+- `src/main/resources`: ktor and logging config files
+- `src/test/kotlin`: a quick unit test
+- `target`: build output will go here once you follow the usage instructions.
+- `target/docker`: intermediate directory for building the docker image
+- `target/fabric8`: k8s/helm gets generated here
+- `pom.xml`:  the [fabric8](https://maven.fabric8.io/) plugin here does most of the docker/k8s heavy lifting.
 
 # Usage:
 
